@@ -112,3 +112,29 @@ header {
 }
 
 /*footer end*/
+
+/*!crutch for search bar*/
+@media screen and (orientation: portrait) and (max-width: 370px) {
+  .banner__searchContainer {
+    display: grid;
+    grid-template-columns: 24px 75% 20px !important;
+    width: 100% !important;
+    height: 69px;
+    border: 2px solid var(--color-searchbar-border);
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 0;
+  }
+  .heading__group-reg-login-sell {
+    display: block !important;
+    width: 100%;
+  }
+
+  .heading__reg-login {
+    display: block;
+  }
+  
+  .heading__sell {
+    display: block;
+  }
+}
