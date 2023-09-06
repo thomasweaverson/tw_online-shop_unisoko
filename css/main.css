@@ -43,7 +43,7 @@ header {
   font-weight: 700;
   line-height: 60px;
   letter-spacing: 0em;
-  
+
   padding-left: 40px;
 }
 
@@ -198,12 +198,12 @@ input.searchBox::placeholder {
 /*Cards end*/
 
 /*Ads start*/
-.ads {
+.goods {
   max-width: 1296px;
   margin: 0 auto;
 }
 
-.ads__container {
+.goods__container {
   display: flex;
   gap: 21px;
   flex-wrap: wrap;
@@ -219,19 +219,19 @@ input.searchBox::placeholder {
 
 }
 
-.ads__product-photo img {
+.goods__product-photo img {
   width: 308px;
   height: 271px;
   object-fit: scale-down;
 }
 
-.ads__product-info {
+.goods__product-info {
   padding-left: 19px;
   padding-right: 10px;
   padding: 0 10px 10px 19px;
 }
 
-.ads__product-info h4 {
+.goods__product-info h4 {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
@@ -240,19 +240,19 @@ input.searchBox::placeholder {
   margin-bottom: 15px;
 }
 
-.ads__product-info h4 a {
+.goods__product-info h4 a {
   text-decoration: none;
   color: #000;
 }
 
-.ads__product-naming {
+.goods__product-naming {
   margin-bottom: 12px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.ads__link {
+.goods__link {
   color: var(--color-text3);
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
@@ -261,7 +261,7 @@ input.searchBox::placeholder {
   line-height: 23px;
 }
 
-.ads__used {
+.goods__used {
   color: var(--color-text4);
   background-color: var(--color-bg2);
   width: Fixed (40px);
@@ -272,20 +272,20 @@ input.searchBox::placeholder {
   margin-right: 3px;
 }
 
-.ads__geo-date {
+.goods__geo-date {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.ads__geo {
+.goods__geo {
   font-family: Poppins, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
 }
 
-.ads__date {
+.goods__date {
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   font-weight: 400;
@@ -293,27 +293,27 @@ input.searchBox::placeholder {
 }
 
 /*view more grid start*/
-.ads__view-more-container {
+.goods__view-more-container {
   display: grid;
   grid-template-columns: 1fr 221px 1fr;
   grid-template-rows: 71px;
   gap: 5px 14px;
   grid-auto-flow: column;
   grid-template-areas:
-    "ads__filler1 ads__btn ads__filler2";
+    "goods__filler1 goods__btn goods__filler2";
   margin-top: 82px;
 }
 
-.ads__btn {
-  grid-area: ads__btn;
+.goods__btn {
+  grid-area: goods__btn;
 }
 
-.ads__filler1 {
-  grid-area: ads__filler1;
+.goods__filler1 {
+  grid-area: goods__filler1;
 }
 
-.ads__filler2 {
-  grid-area: ads__filler2;
+.goods__filler2 {
+  grid-area: goods__filler2;
 }
 
 span.filler {
@@ -324,7 +324,7 @@ span.filler {
   width: 100%;
 }
 
-.ads__btn {
+.goods__btn {
   background-color: transparent;
   width: 221px;
   height: 71px;
@@ -348,9 +348,9 @@ span.filler {
 
 /*footer start*/
 footer {
-  
   background-color: var(--color-bg1);
 }
+
 .footer {
   max-width: 1440px;
   margin: 0 auto;
@@ -385,6 +385,7 @@ footer {
   margin: 0;
   padding: 0;
 }
+
 .footer__grid-group li {
   list-style-type: none;
   margin-bottom: 30px;
@@ -396,12 +397,13 @@ footer {
   color: #000;
 }
 
-.footer__grid-group h3  {
+.footer__grid-group h3 {
   margin: 0 0 29px 0;
   font-family: 'Montserrat', sans-serif;
-font-size: 25px;
-font-weight: 500;
+  font-size: 25px;
+  font-weight: 500;
 }
+
 .thws {
   width: fit-content;
   margin: 0 auto;
