@@ -11,7 +11,7 @@ header {
 .logo {
   width: fit-content;
   padding-left: 0;
-  
+
 }
 
 .heading__group-reg-login-sell {
@@ -68,6 +68,7 @@ header {
   width: 80%;
   margin: 0 auto;
 }
+
 /*search bar end*/
 
 /*banner end*/
@@ -96,6 +97,7 @@ header {
 .footer {
   padding: 20px;
 }
+
 .footer__grid-group {
   display: flex;
   flex-wrap: wrap;
@@ -118,13 +120,14 @@ header {
   .banner__searchContainer {
     display: grid;
     grid-template-columns: 24px 75% 20px !important;
-    width: 100% !important;
+    width: 98% !important;
     height: 69px;
     border: 2px solid var(--color-searchbar-border);
     border-radius: 20px;
     padding-left: 5px;
     padding-right: 0;
   }
+
   .heading__group-reg-login-sell {
     display: block !important;
     width: 100%;
@@ -133,8 +136,17 @@ header {
   .heading__reg-login {
     display: block;
   }
-  
+
   .heading__sell {
     display: block;
+  }
+
+  .searchIcon {
+    position: relative;
+    top: 4px;
+  }
+
+  .searchBox {
+    margin-left: 10px;
   }
 }
