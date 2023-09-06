@@ -1,0 +1,75 @@
+.heading {
+  max-width: 1075px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 0 30px;
+}
+
+/*banner start*/
+.banner__container {
+display: flex;
+flex-direction: column;
+gap: 20px;
+padding-bottom: 50px;
+}
+
+.banner__header {
+  max-width: 503px;
+  width: fit-content;
+    margin: 0 auto;
+  font-family: Montserrat;
+  font-size: 33px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.banner__searchContainer {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.banner__img {
+  order: -1;
+}
+.banner__img img {
+  display: block;
+  position: relative;
+  top: -30px;
+  width: 40%;
+  margin: 0 auto -30px auto;
+  
+}
+/*banner end*/
+
+
+/*Cards start*/
+.cards {
+  margin: 40px auto 40px auto;
+}
+/*Cards end*/
+
+/*footer start*/
+/*footer grid-group contacts about start*/
+
+.footer__grid-group {  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 1px 79px;
+  grid-auto-flow: column;
+  grid-template-areas:
+    "footer__contacts footer__about";
+}
+
+.footer__contacts { grid-area: footer__contacts; }
+
+.footer__about { grid-area: footer__about; }
+
+/*footer grid-group contacts about end*/
+
+/*footer end*/

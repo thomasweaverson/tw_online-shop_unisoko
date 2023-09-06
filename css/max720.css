@@ -1,0 +1,93 @@
+header {
+  padding: 0;
+}
+
+.heading {
+  padding: 15px;
+  min-width: 320px;
+  display: block;
+}
+
+.logo {
+  width: fit-content;
+  padding-left: 0;
+  
+}
+
+.heading__group-reg-login-sell {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  gap: 40px;
+}
+
+/*banner start*/
+.banner__container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.banner__header {
+  max-width: 503px;
+  width: 80%;
+  margin: 0 auto;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.banner__searchContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.banner__img img {
+  display: none;
+}
+
+/*banner end*/
+
+/*Cards start*/
+.cards {
+  margin: 40px auto 40px auto;
+}
+
+
+.cards__card {
+  width: 95%;
+  min-width: 460px;
+}
+
+.cards__card p {
+  width: auto;
+}
+
+.cards__icon .cards__img img {
+  width: 95%;
+}
+
+/*Cards end*/
+
+.footer {
+  padding: 20px;
+}
+.footer__grid-group {
+  display: flex;
+  overflow: hidden;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.footer__contacts {
+  min-width: 214px;
+}
+
+.footer__about {
+  min-width: 146px;
+}

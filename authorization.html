@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/authorization.css">
+
+  <link rel="stylesheet" media="screen and (min-width: 1440px)" href="css/full.css">
+  <link rel="stylesheet" media="screen and (min-width: 721px) and (max-width: 1439px)" href="css/max1439.css">
+  <link rel="stylesheet" media="screen and (max-width: 720px)" href="css/max720.css">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+  </style>
+
+  <script src="https://kit.fontawesome.com/d31cff1d68.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="heading">
+      <div class="logo"><a href="index.html" class="link_home">Uni-Soko</a></div>
+      <div class="heading__group-reg-login-sell">
+
+        <div class="heading__reg-login">
+          <img src="img/heading_user.png" alt="user icon"><a href="#"
+            class="heading__link"><span>Register/Login</span></a>
+        </div>
+        <div class="heading__sell">
+          <img src="img/heading_add.png" alt="add icon"><a href="#" class="heading__link"><span>Sell</span></a>
+        </div>
+      </div>
+
+    </div>
+  </header>
+  <section class="authorization">
+    <div class="rafiki-img">
+      <img src="img/authorization/rafiki.png" alt="">
+    </div>
+    <div class="login-register-tabs">
+      <div class="active-tabs">
+        <input type="radio" name="active_tabs" id="btn-1" class="btn-1">
+        <label for="btn-1" class="btn">SIGN UP</label>
+
+        <input type="radio" name="active_tabs" id="btn-2" class="btn-2" checked>
+        <label for="btn-2" class="btn">SIGN IN</label>
+        <div class="tabs-container">
+
+          <div class="tab-1">
+            <div class="sign-container">
+              <div class="sign-up-form">
+                <h3>Login</h3>
+                <p>Welcome back</p>
+                <form class="sign-form" action="#.php" method="post" id="sign-up-form" name="sign-up-form">
+                  <p><label for="sign-up-email" class="sign-label">Email</label></p>
+                  <p><input type="email" name="sign-up-email" id="sign-up-email" class="sign-input"></p>
+                  <p><label for="sign-up-password" class="sign-label">Password</label></p>
+                  <p><input type="password" name="sign-up-password" id="sign-up-password" class="sign-input"></p>
+                  <input class="sign-btn" type="submit" value="Login">
+                </form>
+                <div class="sign-with-google">
+                  <a class="sign-with-google-link" href="http://google.com"><i
+                      class="fa-brands fa-google"></i>&nbsp;Sign&nbsp;up&nbsp;with&nbsp;Google</a>
+                </div>
+                <p class="sign-footer">Already have an account? <a href="authorization.html"
+                    class="sing-in-link">&nbsp;&nbsp;Sign in</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-2">
+            <div class="sign-container">
+              <div class="sign-up-form">
+                <h3>Create an account</h3>
+                <p>Let’s get started with your 30 days free trial</p>
+                <form class="sign-form" action="#.php" method="post" id="sign-in-form" name="sign-in-form">
+                  <p><label for="sign-in-name" class="sign-label">Name</label></p>
+                  <p><input type="text" name="sign-in-name" id="sign-in-name" class="sign-input"></p>
+                  <p><label for="sign-in-email" class="sign-label">Email</label></p>
+                  <p><input type="email" name="sign-in-email" id="sign-in-email" class="sign-input"></p>
+                  <p><label for="sign-in-password" class="sign-label">Password</label></p>
+                  <p><input type="password" name="sign-in-password" id="sign-in-password" class="sign-input"></p>
+                  <input class="sign-btn" type="submit" value="Login">
+                </form>
+                <div class="sign-with-google">
+                  <a class="sign-with-google-link" href="http://google.com"><i
+                      class="fa-brands fa-google"></i>&nbsp;Sign&nbsp;up&nbsp;with&nbsp;Google</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer">
+      <div class="footer__about">
+        <h2>Online-Shop</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Blandit malesuada dapibus ut pulvinar neque
+          arcu, commodo. Pharetra nisi egestas nisi fermentum.
+          Sollicitudin egestas senectus pellentesque enim
+          mauris vel odio commodo. Pellentesque orci vestibulum
+          sed in molestie consequat.
+        </p>
+      </div>
+      <div class="footer__grid-group">
+        <div class="footer__contacts">
+          <h3>Contact Us</h3>
+          <ul>
+            <li><img src="img/footer/phone.png" alt="icon phone"> <a href="tel:+255752186174">+255 752 186
+                174</a></li>
+            <li><img src="img/footer/message.png" alt="icon mail"> <a
+                href="mailto:lisajocktan@gmail.com">lisajocktan@gmail.com</a></li>
+            <li><img src="img/footer/geo.png" alt="icon geo"> Kijitonyama</li>
+          </ul>
+        </div>
+        <div class="footer__about">
+          <h3>About Us</h3>
+          <ul>
+            <li><a href="#">Support</a><img src="img/footer/blank.png" alt="icon blank"></li>
+            <li><a href="#">Privacy & Policy</a><img src="img/footer/blank.png" alt="icon blank"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="thws"><i class="fa-solid fa-scissors fa-flip-horizontal"></i> ThWs 2023</div>
+  </footer>
+</body>
+
+</html>
