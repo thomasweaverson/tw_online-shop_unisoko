@@ -22,7 +22,7 @@ body {
 header {
   background: rgb(255, 255, 255);
 
-  
+
   background: linear-gradient(0deg, rgba(255, 255, 255, 1) 60%, rgba(253, 45, 45, 0.15) 100%);
   box-shadow: 0px 4px 16px 0px rgba(75, 0, 129, 0.16);
   padding-top: 30px;
@@ -102,6 +102,11 @@ header {
   padding-right: 31px;
 }
 
+.banner__searchContainer:hover {
+  box-shadow: 0px 4px 10px 0px rgba(200, 0, 0, 0.2);
+}
+
+
 /*
   .banner__searchContainer:focus-within img.searchIcon {
     display: none;
@@ -109,6 +114,10 @@ header {
 */
 .banner__searchContainer:focus-within .searchBox::placeholder {
   color: transparent;
+  
+}
+.banner__searchContainer:focus-within {
+box-shadow: 0px 4px 10px 0px rgba(200, 0, 0, 0.2);
 }
 
 .searchIcon {
@@ -165,7 +174,13 @@ input.searchBox::placeholder {
   display: flex;
   justify-content: space-evenly;
   padding: 38px 30px 27px 28px;
+  border-radius: 10px;
 }
+
+.cards__card:hover {
+  box-shadow: 0px 4px 32px 0px rgba(150, 0, 0, 0.25);
+}
+
 
 .cards__card h3 {
   font-size: 30px;
@@ -197,6 +212,23 @@ input.searchBox::placeholder {
   margin: 37px auto 0 auto;
 }
 
+.cards__card a:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out 0ms;
+}
+.cards__card a:not(:hover) {
+  transition: 0.3s;
+}
+
+.cards__card a:active {
+  color: white;
+  transition: 0.3s;
+}
+.cards__card a:not(:active) {
+transition: 0.3s;
+}
+
+
 /*Cards end*/
 
 /*Ads start*/
@@ -210,16 +242,21 @@ input.searchBox::placeholder {
   gap: 21px;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
 .product {
   width: 308px;
   box-shadow: 4px 4px 4px 0px #0000001A;
   box-shadow: 1px 2px 12px 0px #00000040;
-
-
+  
+margin-bottom: 59px;
 }
+
+.product:hover {
+  box-shadow: 4px 4px 10px 0px #aa00001A;
+  box-shadow: 1px 2px 22px 0px #aa000040;
+}
+
 
 .goods__product-photo img {
   width: 308px;
@@ -285,6 +322,7 @@ input.searchBox::placeholder {
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
+  opacity: 50%;
 }
 
 .goods__date {
@@ -292,6 +330,7 @@ input.searchBox::placeholder {
   font-size: 12px;
   font-weight: 400;
   line-height: 14px;
+  opacity: 50%;
 }
 
 /*view more grid start*/
@@ -318,7 +357,7 @@ input.searchBox::placeholder {
   grid-area: goods__filler2;
 }
 
-span.filler {
+img.filler {
   margin-top: 33px;
   display: block;
   height: 2px;
@@ -339,6 +378,24 @@ span.filler {
   line-height: 36px;
   text-align: center;
   cursor: pointer;
+}
+
+.goods__btn:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out 0ms;
+}
+
+.goods__btn:not(:hover) {
+  transition: 0.2s;
+}
+.goods__btn:active {
+  color: white;
+  background-color: red;
+  transition: 0.2s;
+}
+
+.goods__btn:not(:active) {
+  transition: 0.2s;
 }
 
 /*view more grid end*/

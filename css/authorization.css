@@ -2,7 +2,7 @@
   width: 478px;
 
   margin-left: auto;
-  background-color: #ffffffee;
+  background-color: #ffffff;
   margin-top: 147px;
   margin-right: 30px;
 }
@@ -12,6 +12,10 @@
     position: absolute;
     top: 261px;
     margin-left: 30px;
+  }
+
+  .sign-in-mb-crutch {
+    margin-bottom: 316px;
   }
 }
 
@@ -51,6 +55,7 @@
   padding: 0;
   outline: 0 none;
   box-sizing: border-box;
+  background-color: #ffffff1f;
 }
 
 .active-tabs:before,
@@ -76,7 +81,7 @@
 }
 
 .btn {
-  background: #E6E6E6;
+  background: #EAF6FF;
   color: #000;
   cursor: pointer;
   display: block;
@@ -94,14 +99,14 @@
 }
 
 .active-tabs input:checked+label {
-  background: #EAF6FF;
+  background: #E6E6E6;
   opacity: 1;
 }
 
 .tabs-container {
   width: 100%;
   float: left;
-  background: #fff;
+  background-color: transparent;
 }
 
 .tab-1,
@@ -197,6 +202,24 @@ input[type='password'] {
   margin-top: 19px;
 }
 
+.sign-btn:hover {
+  transform: scale(1.01);
+  transition: transform 0.2s ease-in-out 0ms;
+}
+
+.sign-btn:not(:hover) {
+  transition: 0.3s;
+}
+
+.sign-btn:active {
+  transform: scale(1);
+  transition: 0.1s;
+}
+
+.sign-btn:not(:active) {
+  transition: 0.1s;
+}
+
 input.sign-input:focus {
   background-color: #FC0B0D05;
   border-top-left-radius: 10px;
@@ -223,7 +246,27 @@ input.sign-input:focus {
   border: #8D8D8D 1px solid;
   border-radius: 20px;
   padding-top: 15px;
+  margin-left: 2.5px;
 }
+
+.sign-with-google-link:hover {
+  transform: scale(1.01);
+  transition: transform 0.2s ease-in-out 0ms;
+}
+
+.sign-with-google-link:not(:hover) {
+  transition: 0.3s;
+}
+
+.sign-with-google-link:active {
+  transform: scale(1);
+  transition: 0.1s;
+}
+
+.sign-with-google-link:not(:active) {
+  transition: 0.1s;
+}
+
 
 p.sign-footer {
   font-family: 'Poppins', sans-serif;
@@ -232,8 +275,8 @@ p.sign-footer {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-top: 35px;
-  margin-bottom: 200px;
+  margin-top: 97px;
+  margin-bottom: 99px;
 }
 
 .sign-footer>a {
@@ -245,6 +288,8 @@ p.sign-footer {
   line-height: 30px;
   letter-spacing: 0.02em;
 }
+
+
 
 /*Sign common end*/
 
@@ -265,7 +310,7 @@ p.sign-footer {
   .login-register-tabs {
     width: 100%;
     margin: 0;
-    background-color: #ffffffee;
+    background-color: transparent;
   }
 
   .active-tabs {
@@ -310,12 +355,13 @@ p.sign-footer {
   .sign-with-google-link {
     width: 98%;
     min-height: 55px;
-    
+
     padding-top: 15px;
     font-size: 18px;
   }
 
   p.sign-footer {
+    margin-top: 10px;
     margin-bottom: 20px;
   }
 

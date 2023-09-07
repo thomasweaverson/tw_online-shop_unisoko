@@ -69,6 +69,7 @@
 
 .product-card {
   background-color: var(--color-bg-product-card);
+  border-radius: 28px;
 }
 
 .product-card__info h3 {
@@ -158,6 +159,23 @@ a.user-call-link {
   padding: 12px 12px 12px 8px;
 }
 
+a.user-call-link:hover {
+  background-color: #47d399;
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out 0ms;
+}
+a.user-call-link:not(:hover) {
+transition: 0.3s;
+}
+
+a.user-call-link:active {
+
+  background-color: #47d35e;
+transition: 0.3s;
+}
+a.user-call-link:not(:active) {
+transition: 0.3s;}
+
 .product-card__user-card {
   display: flex;
   flex-wrap: wrap;
@@ -225,6 +243,10 @@ a.user-call-link {
     display: flex;
     flex-wrap: wrap;
     gap: 6.17%;
+  }
+
+  .product-card__user-card {
+    margin-right: 50px;
   }
 
   .product-card__slider {

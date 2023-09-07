@@ -115,7 +115,7 @@ header {
 
 /*footer end*/
 
-/*!crutch for search bar*/
+/*!crutch for search bar near 360px*/
 @media screen and (orientation: portrait) and (max-width: 370px) {
   .banner__searchContainer {
     display: grid;
