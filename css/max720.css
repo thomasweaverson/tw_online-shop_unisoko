@@ -96,6 +96,7 @@ header {
 /*footer start*/
 .footer {
   padding: 20px;
+  display: block;
 }
 
 .footer__grid-group {
@@ -113,6 +114,14 @@ header {
   min-width: 146px;
 }
 
+.footer__about p {
+  display: none;
+}
+
+.footer__about h2 {
+  font-size: 30px;
+  text-align: center;
+}
 /*footer end*/
 
 /*!crutch for search bar near 360px*/

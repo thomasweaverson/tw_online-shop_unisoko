@@ -149,6 +149,13 @@ header {
 .footer__about {
   min-width: 146px;
 }
+.footer__about p {
+  display: none;
+}
+.footer__about h2 {
+  font-size: 30px;
+  text-align: left;
+}
 
 /*footer end*/
 
